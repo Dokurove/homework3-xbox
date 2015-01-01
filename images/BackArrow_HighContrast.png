@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+    <head>
+        <!--
+v 14.10.30.16
+s nyjKP8OQM1JhWB1H6Q2eog==
+r 878d0c81-ddaa-47a1-8074-185e459aacfb
+-->
+        
+
+<meta name="application-name" content="The Official Xbox 360 Website" />
+<meta name="msapplication-tooltip" content="The Official Xbox 360 Website" />
+
+
+       <meta name="msapplication-task" content="name=My Xbox;action-uri=http://live.xbox.com?cid=jumplist:Live;icon-uri=http://nxeassets.xbox.com/shaxam/0201/30/fc/30fc9af1-e46f-4cee-b034-21a9c0c75461.ICO?v=1#xbl.ICO" />
+
+       <meta name="msapplication-task" content="name=Games + Marketplace;action-uri=http://marketplace.xbox.com?cid=jumplist:marketplace;icon-uri=http://nxeassets.xbox.com/shaxam/0201/30/fc/30fc9af1-e46f-4cee-b034-21a9c0c75461.ICO?v=1#xbl.ICO" />
+
+       <meta name="msapplication-task" content="name=Xbox Support;action-uri=http://support.xbox.com;icon-uri=http://support.xbox.com/SiteAssets/XboxSupportV2/images/favicon.ico" />
+
+       <meta name="msapplication-task" content="name=PC Setup;action-uri=http://www.xbox.com/PCSetup?cid=jumplist:pcsetup;icon-uri=http://support.xbox.com/SiteAssets/XboxSupportV2/images/favicon.ico" />
+
+
+<meta name="ms.siteorg" content="Entertainment and Devices" />
+<meta name="ms.sitename" content="Xbox" />
+
+<meta name="ms.loc" content="IT" />
+<meta name="ms.lang" content="zh" />
+        <link href="/shell/css/gridlayout.css?v=14101400100" rel="stylesheet" type="text/css" />
+        
+<link href="/shell/css/xboxv3.css?v=14101400100" rel="stylesheet" type="text/css" /><link href="/shell/css/shellstyles.css?v=14101400100" rel="stylesheet" type="text/css" />        
+<link href="/shell/css/shell.css?v=14101400100" rel="stylesheet" type="text/css" />
+        <link href="/shell/css/jquery-ui-theme.css?v=14101400100" rel="stylesheet" type="text/css" />
+
+        <script>
+            
+            (function () {
+                var html5Elements = ['article', 'section', 'header', 'nav', 'footer', 'aside'];
+                for (var i = 0; i < html5Elements.length; i++) {
+                    document.createElement(html5Elements[i]);
+                }
+            })();
+        </script>
+
+        
+        <!--Third party scripts and code linked to or referenced here are licensed to you by the third parties that own such code, not by Microsoft, see ASP.NET Ajax CDN Terms of Use – http://www.asp.net/ajaxlibrary/CDN.ashx.-->
+        <script src="//ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.2.min.js?v=14101400100"></script>
+        <script src="/shell/js/its.amd.js?v=14101400100"></script>
+        <script src="/shell/js/shiny.js?v=14101400100"></script>
+        <script src="/shell/js/instrumentation.js?v=14101400100"></script>
+        <script src="/shell/js/general.js?v=14101400100"></script>
+        
+        <script>
+            
+            try {
+                var utcOffsetMinutes = new Date().getTimezoneOffset() * -1;
+                setCookie("UtcOffsetMinutes", utcOffsetMinutes, 30);
+            } catch (e) { }
+        </script>
+
+        
+        
+    
+    <script>
+        window.xboxComShellData = {"version":"14.10.30.16","defaultOptionIndex":0,"searchScopeOptions":[{"value":"http://www.xbox.com/zh-CN/Search?q={0}#All","context":"搜索全部内容","label":"在所有内容中","id":"All","enumValue":0},{"value":"http://www.xbox.com/zh-CN/Search?q={0}#General","context":"搜索所有站点","label":"在所有站点中","id":"General","enumValue":10},{"value":"http://www.xbox.com/zh-CN/Search?q={0}#Games","context":"搜索游戏","label":"在游戏中","id":"Games","enumValue":20},{"value":"http://www.xbox.com/zh-CN/Search?q={0}#Support","context":"搜索支持","label":"在支持中","id":"Support","enumValue":30},{"value":"http://www.xbox.com/zh-CN/Search?q={0}#Forums","context":"搜索论坛","label":"在论坛中","id":"Forums","enumValue":40}]};
+    </script>
+    
+
+
+         
+
+        
+        
+        
+        
+        
+
+        <title>找不到页面</title>
+
+
+
+
+
+        <script>
+            var xboxComShellData = {};
+            xboxComShellData.searchScopeOptions = [];
+            xboxComShellData.version = "0.0.0.0";
+           
+                    
+                  xboxComShellData.searchScopeOptions.push({
+                    value: "http://www.xbox.com/zh-CN/Search?q={0}#All",
+                    context: "搜索全部内容",
+                    label: "在所有内容中",
+                    id: "All",
+                    enumValue: 0
+                });
+                
+                    
+                  xboxComShellData.searchScopeOptions.push({
+                    value: "http://www.xbox.com/zh-CN/Search?q={0}#General",
+                    context: "搜索所有站点",
+                    label: "在所有站点中",
+                    id: "General",
+                    enumValue: 10
+                });
+                
+                    
+                  xboxComShellData.searchScopeOptions.push({
+                    value: "http://www.xbox.com/zh-CN/Search?q={0}#Games",
+                    context: "搜索游戏",
+                    label: "在游戏中",
+                    id: "Games",
+                    enumValue: 20
+                });
+                
+                    
+                  xboxComShellData.searchScopeOptions.push({
+                    value: "http://www.xbox.com/zh-CN/Search?q={0}#Support",
+                    context: "搜索支持",
+                    label: "在支持中",
+                    id: "Support",
+                    enumValue: 30
+                });
+                
+                    
+                  xboxComShellData.searchScopeOptions.push({
+                    value: "http://www.xbox.com/zh-CN/Search?q={0}#Forums",
+                    context: "搜索论坛",
+                    label: "在论坛中",
+                    id: "Forums",
+                    enumValue: 40
+                });
+                
+
+
+            xboxComShellData.defaultOptionIndex = 0;
+            
+            require(['window.postXDMessage', 'jquery'], function (postXDMessage, $) {
+                $(function () {
+
+                    postXDMessage({ verb: 'CURRENT_PAGE', uri: window.location.href }, "OTHER");
+                    
+                });
+            });
+        </script>
+
+        <link rel="shortcut icon" href="/shell/images/favicon.ico" />
+        
+    </head>
+
+    <body id="DocumentBody" class="marketplaceDisabled pointsDisabled goldDisabled musicPassDisabled" >
+        <div id="bodycolumn">
+            
+    
+
+            
+                <div id="BodyHeader" class="container headerFixedHeight">
+                    <div id="shellHeaderContent">
+    <div id="shellLogoArea">
+        <a href="http://www.xbox.com/?xr=mebarnav">
+            <img id="shellLogo" src="/shell/images/shell/XboxLogo.png" />
+        </a>
+    </div>
+    <div id="shellNavigationArea">
+        <ul class="navigationElements">
+        <li>
+            <a href="http://www.xbox.com/zh-CN/xbox-one/meet-xbox-one?xr=shellnav" name="zh_CN_0" aria-haspopup="true" >Xbox One</a>
+                <ul>
+                        <li>
+                            <a href="http://www.xbox.com/zh-CN/xbox-one/meet-xbox-one?xr=shellnav" name="zh_CN_0_0" >深入了解 Xbox One</a>
+                        </li>
+                        <li>
+                            <a href="http://www.xbox.com/zh-CN/xbox-one/consoles?xr=shellnav" name="zh_CN_0_1" >主机</a>
+                        </li>
+                        <li>
+                            <a href="http://www.xbox.com/zh-CN/xbox-one/accessories?xr=shellnav" name="zh_CN_0_2" >配件</a>
+                        </li>
+                        <li>
+                            <a href="http://www.xbox.com/zh-CN/buy-now?xr=shellnav" name="zh_CN_0_3" >购买</a>
+                        </li>
+                        <li>
+                            <a href="http://www.xbox.com/zh-CN/disclosure?xr=shellnav" name="zh_CN_0_4" >致客户通知</a>
+                        </li>
+                </ul>
+        </li>
+        <li>
+            <a href="http://www.xbox.com/zh-CN/live?xr=shellnav" name="zh_CN_1" aria-haspopup="true" >Xbox Live 金会员</a>
+                <ul>
+                        <li>
+                            <a href="http://www.xbox.com/zh-CN/Live?xr=shellnav" name="zh_CN_1_0" >关于 Xbox Live 金会员</a>
+                        </li>
+                        <li>
+                            <a href="https://login.live.com/login.srf?wa=wsignin1.0&amp;rpsnv=12&amp;ct=1406944480&amp;rver=6.4.6456.0&amp;wp=MBI_SSL&amp;wreply=https:%2F%2Flive.xbox.com:443%2Fxweb%2Flive%2Fpassport%2FsetCookies.ashx%3Frru%3Dhttps%253a%252f%252flive.xbox.com%252fzh-CN%252fMyXbox%252fContactPreferences&amp;lc=2052&amp;id=66262&amp;cbcxt=0&amp;xr=shellnav" name="zh_CN_1_1" >加入 Xbox Live</a>
+                        </li>
+                </ul>
+        </li>
+        <li>
+            <a href="http://www.xbox.com/zh-CN/xbox-one/games?xr=shellnav" name="zh_CN_2" aria-haspopup="true" >游戏</a>
+        </li>
+        <li>
+            <a href="http://support.xbox.com/?xr=shellnav" name="zh_CN_3" aria-haspopup="true" >支持</a>
+                <ul>
+                        <li>
+                            <a href="http://support.xbox.com/browse/xbox-one?xr=shellnav" name="zh_CN_3_0" >Xbox One</a>
+                        </li>
+                        <li>
+                            <a href="http://support.xbox.com/browse/billing?xr=shellnav" name="zh_CN_3_1" >帐单 支持</a>
+                        </li>
+                        <li>
+                            <a href="http://support.xbox.com/browse/my-account?xr=shellnav" name="zh_CN_3_2" >我的帐户 支持</a>
+                        </li>
+                        <li>
+                            <a href="http://support.xbox.com/browse/xbox-on-other-devices?xr=shellnav" name="zh_CN_3_3" >其他设备上的 Xbox 支持</a>
+                        </li>
+                        <li>
+                            <a href="http://support.xbox.com/error-code-lookup?xr=shellnav" name="zh_CN_3_4" >错误和状态代码搜索</a>
+                        </li>
+                </ul>
+        </li>
+</ul>
+
+        <div id="shellSearchContainer">
+    <a href="#"><img class="searchIcon" src="/shell/images/shell/SearchIcon.png" /></a>
+    <div id="searchBoxWrapper">
+        <div id="searchTextContainer">
+            <input type="text" id="searchTextBox" tabindex="-1" maxlength="200" name="q" data-url="http://www.xbox.com/zh-CN/Search?q={0}#All"/>
+            <div id="searchCloseIcon"></div>
+        </div>
+    </div>
+</div>
+
+    </div>
+
+<div id="mebarArea" aria-haspopup="true" class="signOut">
+    <div id="mebar">
+        <div class="gamerInfo">
+            <ul id="infoContainer">
+                <li class="gamerStat" id="gamerStat">
+                        <a name="RpsSignInLink" href="https://account.xbox.com/Account/Signin?returnUrl=http%3a%2f%2fwww.xbox.com%2fError%3f404%3bhttp%3a%2f%2fwww.xbox.com%3a80%2fzh-CN%2fContent%2fImages%2fBackArrow_HighContrast.png">登录</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <ul class="mebarList">
+    </ul>
+
+</div>
+</div>
+<script type="text/javascript">
+    //<![CDATA[
+    $(function () {
+        InitializeMobileLink("#MobileVersionLinkArea", "desktopVersion", "mobileOverride");
+    });
+    //]]>
+</script>
+
+                </div>
+            <div id="BodyContent" class="container">
+                
+
+
+
+
+
+
+
+
+
+<div class="grid-18 NotFound">
+    <h1 class="CustomErrorTitle">嘿! 这个页面怎么了?</h1>
+    <h2>某些内容已移动到其他位置。</h2>
+    <p>您查找的页面可能移到了新位置，或已不可用。您可能需要:</p>
+    <ul>
+        <li><a href="http://www.xbox.com/" title="从主页重新开始查找。">从主页重新开始查找。</a></li>
+        <li><a href="/Shell/ChangeLocale" title="检查您使用的网站是否与您所在的国家或地区相符。">检查您使用的网站是否与您所在的国家或地区相符。</a></li>
+    </ul>
+</div>
+<div class="grid-6 lastgridchild">
+    <img src="/Shell/images/404Avatar.png" title="404" alt="404" />
+</div>
+
+
+
+
+
+
+                  <!-- date: [[2014-11-04T10:51:40.8067107Z]] -->
+            </div>
+                <div id="BodyFooter" class="container">
+                    
+<div id="ShellFooterContent">
+    <div class="PrimaryContent">
+        <div id="ShellRightContentArea">
+            
+        </div>
+
+        <div id="ShellFooterNavigation">
+<a href="http://www.xbox.com/zh-CN/support/?xr=footnav" >&#25903;&#25345;</a><a href="http://support.xbox.com/zh-cn/xbox-one/games/photosensitive-seizure-warning?xr=footnav" class="spread" >&#20809;&#25935;&#24863;&#24615;&#30315;&#30187;&#30151;&#35686;&#21578;</a><a href="http://www.xbox.com/zh-CN/id?xr=footnav" class="spread" >&#24320;&#21457;&#32773;&#32593;&#31449;</a><a href="http://www.weibo.com/xboxcn?xr=footnav" class="spread" >Xbox&#20013;&#22269;&#23448;&#26041;&#24494;&#21338;</a><a href="http://support.xbox.com/zh-cn/third-party-trademark?xr=footnav" class="spread" >&#31532;&#19977;&#26041;&#21830;&#26631;&#20351;&#29992;&#30340;&#20813;&#36131;&#22768;&#26126;</a>        </div>
+
+        <div id="ShellFooterSocial" class="ShellFooterSocial">
+
+
+
+
+        </div>
+        <div id="ShellLeftContentArea">
+            
+        </div>
+    </div>
+
+    <div class="SecondaryContent">
+        <div id="LogoAndCopyright">
+            <div id="CopyrightLogo">
+            </div>
+            <div id="CopyrightText">
+                &#169; 2014 Microsoft
+            </div>
+        </div>
+        <div id="ShellFooterSecondaryNavigation">
+            <div class="FuncLinkArea">
+                <a href="/Shell/ChangeLocale" id="ChangeCultureLink" name="ChangeCultureLink">中华人民共和国 (China)</a>
+                    <span id="MobileVersionLinkArea">
+                        <a class="changeMobileVersion" href="#" data-type="mobile" id="MobileVersionLink">手机版本</a>
+                    </span>
+            </div>
+
+<a href="http://go.microsoft.com:80/fwlink/?linkid=259655&amp;clcid=0x804&amp;xr=footnav" >&#38544;&#31169;&#22768;&#26126;</a><a href="http://www.xbox.com/zh-CN/legal/xboxComTOU?xr=footnav" class="spread" >Xbox.com &#20351;&#29992;&#35268;&#23450;</a><a href="http://www.xbox.com/zh-CN/legal/codeofconduct?xr=footnav" class="spread" >&#31649;&#29702;&#21150;&#27861;</a>        </div>
+    </div>
+
+</div>
+                </div>
+        </div>
+        
+    
+
+        <script type="text/javascript">
+    require(["jquery", "window.postXDMessage"], function($, postXDMessage) {
+        $(function () {
+            postXDMessage({ verb: 'CLOSE_DIALOG', reason: 'ERROR', errorCode: '404'});
+        });
+    });
+</script>
+
+        <!-- SiteCatalyst code version: H.16.  Copyright 1996-2010 Adobe, Inc. More info available at http://www.omniture.com -->
+<script type="text/javascript">//<![CDATA[
+ try { var s_account="msxboxcomzhcn,msxboxcomglobal";t_account="msxboxcomv2zhCN"; } catch(e) {} 
+//]]></script>
+<script type="text/javascript" src="/Shell/js/s_code.js"></script>
+<script type="text/javascript" src="/Shell/js/pageReference.js"></script>
+<script type="text/javascript">//<![CDATA[
+try {
+s.pageName='www\x2ferror';s.events='event1';s.prop2='zh-cn';s.eVar1='zh-cn';s.eVar73='default';s.eVar8='n';s.prop10='n';s.channel='www';s.prop1='error';s.eVar7='error';
+var extendedReferrer = s.getQueryParam('xr').toLowerCase();
+if (extendedReferrer.length > 0) { s.prop9 = extendedReferrer; }
+if (!s.eVar2) { s.eVar2 = s.pageName; }
+s.trackingServer="o.xbox.com";
+s.trackingServerSecure="s.xbox.com";
+if ($('#LiveStatusOutage').length > 0) { s.eVar57 = $('#LiveStatusOutage').text(); }
+require(['xbox.biTracking.pageReference'], function(pageReference){ s.eVar61 = pageReference.getReferrer(); });
+s.trackInlineStats=true;
+$('document').ready(function() {
+try {
+if (typeof(OmnitureTracking) != 'undefined') { OmnitureTracking.onBeforePageImpression() }
+var s_code=s.t(); if (s_code) document.write(s_code);
+}catch(ex){}
+});
+}catch(e){}
+//]]></script>
+<noscript><img src="http://o.xbox.com/b/ss/msxboxcomzhcn,msxboxcomglobal/1/H.16--NS/0?pageName=NoScriptPage" height="1" width="1" border="0" alt="" /></noscript><!--/DO NOT REMOVE/--><!-- End SiteCatalyst code version: H.16. --><!-- Start WEDCS tracking -->
+<script type="text/javascript">
+try {
+var varSegmentation = 0; var varClickTracking = 1;var varCustomerTracking = 1;
+document.write("<script type='text/javascript' src='http://c.microsoft.com/ms.js'><\/script>");
+} catch(e) {}
+</script>
+<noscript><img src="http://c.microsoft.com/trans_pixel.aspx" height="1" width="1" border="0" alt="" /></noscript>
+<!-- End WEDCS tracking -->
+<script type="text/javascript" src="http://js.microsoft.com/library/svy/xbox/broker.js"></script><script type="text/javascript">//<![CDATA[
+try{    if ((typeof BusinessTracking != 'undefined') && (BusinessTracking.extendPageViewData)) {
+        BusinessTracking.extendPageViewData();
+    }}catch(e){}
+//]]></script>
+
+    </body>
+
+</html>
+

@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Xbox 官方网站|中国</title>
+    <link rel="stylesheet" href="">
+     <style>
+    *{
+        border: 0;
+        margin: 0;
+    }
+    .header-nav{
+        display: block;
+        background-color: #107c10;
+        padding: 0 193.5px;
+        width: 960px;
+        height: 64px;
+    }
+    .XboxLogo img{
+        width: 32px;
+        height: 32px;
+        padding: 16px 16px 0 0;
+        float: left;
+    }
+    .header-list ul{
+        list-style: none;
+    }
+    .header-list li{
+        float: left;
+    }
+    .header-list li a{
+        text-decoration: none;
+        color: white;
+        padding: 0 14px;
+        line-height: 64px;
+        font-family: "Segoe UI Semibold", Arial, Sans-Serif;
+        font-size: 13px;
+        display: block;
+    }
+    .SearchIcon{
+        width: 64px;
+        height: 64px;
+        float: left;
+        text-align: center;
+    }
+    .SearchIcon a{
+        display: block;
+        line-height: 64px;
+    }
+    .SearchIcon img{
+        width: 20px;
+        height: 20px;
+        padding: 22px 0 0 0;
+    }
+    .denglu{
+        float: right;
+        width: 86px;
+        height: 64px;
+        background-color: #156115;
+        text-align: center;
+    }
+    .denglu a{
+        display: block;
+        font-size: 14px;
+        color: white;
+        text-decoration: none;
+        line-height: 64px;
+    }
+    .denglu a:hover,
+    .header-list a:hover,
+    .SearchIcon a:hover{
+        background-color: black;
+    }
+    
+    .element-1 img{
+        width: 100%;
+    }
+    .content-1{
+        float: left;
+    }
+    .content-1 img{
+        width: 666px;
+        height: 373px;
+    }
+
+    .element-2{
+        margin-top: 36px; 
+    }
+    .element-2 div{
+        padding: 2px;
+    }
+    .content-2{
+        float: left;
+    }
+    .content-2 img{
+        width: 333px;
+        height: 185px;
+    }
+    .content-3{
+        float: left;
+    }
+    .content-3 img{
+        width: 332px;
+        height: 185px;
+    }
+    
+
+    .element-3{
+        margin: 36px 0;
+    }
+    .element-3 div{
+        float: left;
+        padding: 0 2px;
+    }
+    .element-3 img{
+        width: 332px;
+        height: 186px;
+    }
+    .clear{
+        clear: both;
+    }
+
+
+    .footer{
+        margin-top: 108px;
+        width: 100%;
+        height: 140px;
+        background-color: #333333;
+        color: #bdbec1;
+    }
+    .footer a{
+        text-decoration: none;
+        color: #bdbec1;
+    }
+    .footer-top{
+        padding: 30px 0 10px;
+        margin: 0 auto;
+        width: 955px;
+    }
+    .footer-top a{
+        font-size: 14px;
+    }
+    .footer-bottom{
+        padding: 10px 0;
+        margin: 0 auto;
+        border-top: 1px solid #bdbec1;
+        width: 955px;
+    }
+    .footer-bottom a{
+        font-size: 11px;
+    }
+    .footer-bottom-list{
+        float: left;
+    }
+    .footer-logo{
+        float: right;
+    }
+    .xiaozi{
+        float: right;
+        font-size: 11px;
+    }
+    .element-1 li{
+        display: none;
+    }
+    #img-wrap li.selected{
+        display: block;
+    }
+    .element-1{
+        position: relative;
+    }
+    .arrleft{
+        background-image: url(images/arrow_left.png);
+        position: absolute;
+        top: 50%;
+        left: 20px;
+        width: 24px;
+        height: 40px;
+    }
+    .arrright{
+        background-image: url(images/arrow_right.png);
+        position: absolute;
+        top: 50%;
+        right: 20px;
+        width: 24px;
+        height: 40px;
+    }
+    </style>
+</head>
+<body onload="autoStart()">
+    <div class="header-nav">
+        <div class="XboxLogo">
+            <a href="http://www.xbox.com/zh-CN/?xr=mebarnav"><img src="images/XboxLogo.png" alt="XboxLogo" /></a>
+        </div>
+        <div class="header-list">
+            <ul>
+                <li><a href="http://www.xbox.com/zh-CN/xbox-one/meet-xbox-one?xr=shellnav">Xbox One</a></li>
+                <li><a href="http://www.xbox.com/zh-CN/live?xr=shellnav">Xbox Live 金会员</a></li>
+                <li><a href="http://www.xbox.com/zh-CN/xbox-one/games?xr=shellnav">游戏</a></li>
+                <li><a href="http://www.xbox.com/zh-CN/?xr=mebarnav">支持</a></li>
+            </ul>
+        </div>
+        <div class="SearchIcon">  
+            <a href="http://www.xbox.com/zh-CN/#fbid=m30EMRKx5QO"><img src="images/SearchIcon.png" alt="SearchIcon" /></a>
+        </div>
+        <div class="denglu">
+            <a href="https://login.live.com/login.srf?wa=wsignin1.0&rpsnv=12&ct=1415099947&rver=6.2.6289.0&wp=MBI_SSL&wreply=https:%2F%2Faccount.xbox.com:443%2Fpassport%2FsetCookies.ashx%3Frru%3Dhttps%253a%252f%252faccount.xbox.com%252fzh-CN%252fAccount%252fSignin%253freturnUrl%253dhttp%25253a%25252f%25252fwww.xbox.com%25252fzh-CN%25252f&lc=2052&id=292543&cbcxt=0">登录</a>
+        </div> 
+    </div>
+    <div class="tupian">
+        <div class="element-1" id="img-wrap">
+            <li class="selected"><a href="http://www.xbox.com/zh-CN/games/forza-5" ><img src="images/element1.jpg" /></a></li>
+            <li><a href="javascript:;"><img src="images/2.jpg" /></a></li>
+            <li><img src="images/3.jpg" /></li>
+            <li><img src="images/4.jpg" /></li>
+            <li><img src="images/5.jpg" /></li>
+        </div>
+        <div class="arr-wrap">
+            <a class="arrleft" href="javascript:;" onclick="move(false)"></a>
+            <a class="arrright" href="javascript:;" onclick="move(true)"></a>
+        </div>
+        <div class="element-2">
+            <div class="content-1">
+                <a href="http://www.xbox.com/zh-CN/games/dance-central"><img src="images/element2.jpg" alt="element2" /></a>
+            </div>
+            <div class="content-2">
+                <a href="http://www.xbox.com/zh-CN/games/max-curse-of-brotherhood"><img src="images/element3.jpg" alt="element3"></a>
+            </div>    
+            <div class="content-3">
+                <a href="http://www.xbox.com/zh-CN/games/neverwinter-online"><img src="images/element4.jpg" alt="element4"></a>
+            </div>
+            <div class="content-2">
+                <a href="http://www.xbox.com/zh-CN/games/Zoo-Tycoon/Home"><img src="images/element5.jpg" alt="element5"></a>
+            </div>
+            <div class="content-3">
+                <a href="http://www.xbox.com/zh-CN/games/powerstar-golf"><img src="images/element6.jpg" alt="element6"></a>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="element-3">
+            <div>
+                <a href="http://www.xbox.com/zh-CN/games/naughty-kitties"><img src="images/element7.jpg" alt="element7"></a>
+            </div>
+            <div>
+                <a href="http://www.xbox.com/zh-CN/games/trials-fusion"><img src="images/element8.jpg" alt="element8"></a>
+            </div>
+            <div>
+                <a href="http://www.xbox.com/zh-CN/xbox-one/accessories?xr=shellnav"><img src="images/element9.jpg" alt="element9"></a>
+            </div>
+            <div>
+                <a href="http://www.xbox.com/zh-CN/games/rayman-legends"><img src="images/element10.jpg" alt="element10"></a>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+
+        <div class="footer">
+            <div class="footer-top">
+                <a href="http://support.xbox.com/zh-CN/?icid=furl_support">支持</a> |
+                <a href="http://support.xbox.com/zh-cn/xbox-one/games/photosensitive-seizure-warning?xr=footnav">光敏感性癫痫症警告</a> |
+                <a href="http://www.xbox.com/zh-CN/developers/id">开发者网站</a> |
+                <a href="http://www.weibo.com/xboxcn?xr=footnav">Xbox中国官方微博</a> |
+                <a href="http://support.xbox.com/zh-cn/third-party-trademark?xr=footnav">第三方商标使用的免责声明</a>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-bottom-list">
+                    <a href="http://www.xbox.com/Shell/ChangeLocale"><b>中华人民共和国(China)</b></a> |
+                    <a href="http://www.xbox.com/zh-CN/#fbid=m30EMRKx5QO"><b>手机版本</b></a> |
+                    <a href="http://www.microsoft.com/privacystatement/zh-cn/xbox/default.aspx?xr=footnav">隐私声明</a> |
+                    <a href="http://www.xbox.com/zh-CN/legal/xboxComTOU?xr=footnav">Xbox.com 使用规定</a> |
+                    <a href="http://www.xbox.com/zh-CN/legal/codeofconduct?xr=footnav">管理办法</a>
+                </div>
+                <div class="footer-logo">
+                    <img src="images/microsoft.png" alt="microsoft">
+                    <div class="clear"></div>
+                    <div class="xiaozi">© 2014 Microsoft</div>
+                </div>
+            </div>
+        </div>
+</body>
+<script src="Xbox.js"></script>
+
+</html>
